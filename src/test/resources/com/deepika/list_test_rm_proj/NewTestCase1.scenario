@@ -11,22 +11,37 @@
           <value>dm</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>UDC1</name>
+          <collectionFieldList>
+            <field-data>
+              <name>UDC1</name>
+              <value>30</value>
+              <nature>4</nature>
+            </field-data>
+            <field-data>
+              <name>UDC1</name>
+              <value>60</value>
+              <nature>4</nature>
+            </field-data>
+          </collectionFieldList>
+        </field-data>
       </fieldData>
       <name>$r</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>4</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>7</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>UDC</fieldName>
           <expected></expected>
-          <actualResult>[20]</actualResult>
+          <actualResult>[]</actualResult>
           <successResult>false</successResult>
-          <explanation>[combined_pojo] field [UDC] was [[20]] expected [].</explanation>
+          <explanation>[combined_pojo] field [UDC] was [[]] expected [].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -35,7 +50,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-08 10:05:45.672 UTC</lastRunResult>
+  <lastRunResult>2020-08-08 10:19:53.687 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.list_test_rm_proj</packageName>
