@@ -123,7 +123,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;30&quot;,&quot;60&quot;</valueString>
+        <valueString>30,60</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
