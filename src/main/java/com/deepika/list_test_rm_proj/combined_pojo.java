@@ -30,12 +30,7 @@ public java.util.List<java.lang.String> getUDC() {
 	}
 
 	public void setUDC(java.lang.String input) {
-			UDC.add(input);
-	}
-
-
-	public void add_element_UDC(String nnpd_attr_9) {
-		UDC.add(nnpd_attr_9);
+			this.UDC.add(input);
 	}
 
 
