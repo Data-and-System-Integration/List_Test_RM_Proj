@@ -12,8 +12,18 @@ public class combined_pojo implements java.io.Serializable {
 
     public combined_pojo() {
     }
+    
+    private java.util.List<java.lang.String> UDC = new ArrayList<String>();
+    private java.lang.String strVal;
+	public java.lang.String getStrVal() {
+		return this.strVal;
+	}
 
-private java.util.List<java.lang.String> UDC = new ArrayList<String>();
+	public void setStrVal(java.lang.String strVal) {
+		this.strVal = strVal;
+	}
+
+
 
 public java.util.List<java.lang.String> getUDC() {
 		return this.UDC;
