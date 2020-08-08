@@ -34,5 +34,14 @@ public java.util.List<java.lang.String> getUDC() {
 	}
 
 
+private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
+	public java.util.List<java.lang.String> getUDC1() {
+		return this.UDC1;
+	}
+
+	public void setUDC1(java.lang.String input) {
+			UDC1.add(input);
+	}
+	
 
 }
