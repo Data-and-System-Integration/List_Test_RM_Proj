@@ -16,17 +16,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>4</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>10</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>UDC</fieldName>
           <expected></expected>
-          <actualResult>[]</actualResult>
+          <actualResult>[20]</actualResult>
           <successResult>false</successResult>
-          <explanation>[combined_pojo] field [UDC] was [[]] expected [].</explanation>
+          <explanation>[combined_pojo] field [UDC] was [[20]] expected [].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -35,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-08 06:55:13.151 UTC</lastRunResult>
+  <lastRunResult>2020-08-08 12:10:04.791 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.deepika.list_test_rm_proj</packageName>
