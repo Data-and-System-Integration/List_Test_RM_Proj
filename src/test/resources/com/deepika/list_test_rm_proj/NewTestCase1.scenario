@@ -7,11 +7,6 @@
       <type>combined_pojo</type>
       <fieldData>
         <field-data>
-          <name>strVal</name>
-          <value>dm</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
           <name>UDC1</name>
           <collectionFieldList>
             <field-data>
