@@ -34,8 +34,12 @@ public java.util.List<java.lang.String> getUDC() {
 	}
 
 
+//private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
 private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
+
+
 	public java.util.List<java.lang.String> getUDC1() {
+	    this.UDC1.add("30");
 		return this.UDC1;
 	}
 
