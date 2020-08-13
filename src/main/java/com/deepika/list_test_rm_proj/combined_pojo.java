@@ -30,11 +30,15 @@ public java.util.List<java.lang.String> getUDC() {
 	}
 
 	public void setUDC(java.lang.String input) {
+	    if(UDC.size() != 0){
+	        UDC.clear();
+	    }else{
 			this.UDC.add(input);
+	    }
 	}
 
 
-//private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
+
 private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
 
 
