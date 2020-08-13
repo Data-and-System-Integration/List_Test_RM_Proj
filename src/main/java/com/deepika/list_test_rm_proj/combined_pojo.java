@@ -30,11 +30,11 @@ public java.util.List<java.lang.String> getUDC() {
 	}
 
 	public void setUDC(java.lang.String input) {
-	   // if(UDC.size() != 0){
-	       // UDC.clear();
-	    //}else{
+	   if(UDC.size() != 0){
+	        UDC.removeAll(UDC);
+	    }else{
 			this.UDC.add(input);
-	   // }
+	    }
 	}
 
 
