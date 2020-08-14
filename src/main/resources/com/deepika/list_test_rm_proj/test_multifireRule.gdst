@@ -236,7 +236,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>&quot;dm&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -252,7 +252,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>$r.getUDC().size() != 0</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
