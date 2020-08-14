@@ -57,7 +57,7 @@ public java.util.List<java.lang.String> getUDC() {
 	   // return listVal;
 //	}
 
-public void updateList(ArrayList<ArrayList<String>> inpiutList){
+public void updateList(java.util.List<java.lang.String> inpiutList){
     inpiutList.removeAll(inpiutList);
 }
 
