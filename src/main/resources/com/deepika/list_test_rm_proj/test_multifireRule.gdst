@@ -73,22 +73,6 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>NUMERIC_BIGDECIMAL</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>data_ppmonth &gt;</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>data_ppmonth</factField>
-          <fieldType>BigDecimal</fieldType>
-          <operator>&gt;</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -253,12 +237,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -314,11 +292,6 @@
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -380,11 +353,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -440,11 +408,6 @@
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
