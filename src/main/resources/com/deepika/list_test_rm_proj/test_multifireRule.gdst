@@ -76,17 +76,18 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>STRING</dataType>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>163</width>
-          <header>trst</header>
-          <constraintValueType>5</constraintValueType>
-          <factField>UDC</factField>
-          <fieldType>Collection</fieldType>
-          <operator>--- please choose ---</operator>
+          <width>100</width>
+          <header>data_ppmonth &gt;</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>data_ppmonth</factField>
+          <fieldType>BigDecimal</fieldType>
+          <operator>&gt;</operator>
           <parameters/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
@@ -246,14 +247,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>$r.getUDC().size() != 0</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric>0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -316,7 +318,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -379,7 +381,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -442,7 +444,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
