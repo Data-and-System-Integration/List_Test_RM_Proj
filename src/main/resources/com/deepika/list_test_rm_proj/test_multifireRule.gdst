@@ -76,18 +76,17 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>NUMERIC_BIGDECIMAL</dataType>
+            <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>data_ppmonth &gt;</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>data_ppmonth</factField>
-          <fieldType>BigDecimal</fieldType>
-          <operator>&gt;</operator>
+          <header>UDC_List</header>
+          <constraintValueType>5</constraintValueType>
+          <factField>UDC</factField>
+          <fieldType>Collection</fieldType>
+          <operator>--- please choose ---</operator>
           <parameters/>
-          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
@@ -253,9 +252,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <valueString>$r.getUDC().size() != 0</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -318,7 +316,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -381,7 +379,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -444,7 +442,7 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
