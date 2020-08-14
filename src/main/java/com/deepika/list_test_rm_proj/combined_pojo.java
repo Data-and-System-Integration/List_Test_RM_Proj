@@ -14,6 +14,8 @@ public class combined_pojo implements java.io.Serializable {
     }
     
     private java.util.List<java.lang.String> UDC = new ArrayList<String>();
+    private java.util.List<java.lang.String> secondList = new ArrayList<String>();
+    
     private java.math.BigDecimal data_ppmonth;
     
     public java.math.BigDecimal getData_ppmonth() {
@@ -33,18 +35,21 @@ public class combined_pojo implements java.io.Serializable {
 	}
 
 
+public java.util.List<java.lang.String> getSecondList() {
+		return this.secondList;
+	}
+
+	public void setSecondList(java.lang.String input) {
+			this.secondList.add(input);
+	}
+
 
 public java.util.List<java.lang.String> getUDC() {
 		return this.UDC;
 	}
 
 	public void setUDC(java.lang.String input) {
-	   //if(UDC.size() != 0){
-	   //     UDC.removeAll(UDC);
-	     //   this.UDC.add(input);
-	   // }else{
 			this.UDC.add(input);
-	  //  }
 	}
 	
 	//public java.util.List<java.lang.String> removeAllElementsOfList(java.util.List<java.lang.String> listVal){
