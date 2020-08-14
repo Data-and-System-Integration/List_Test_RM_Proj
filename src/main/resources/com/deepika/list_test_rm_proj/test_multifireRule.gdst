@@ -80,7 +80,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>163</width>
           <header>trst</header>
           <constraintValueType>5</constraintValueType>
           <factField>UDC</factField>
@@ -252,7 +252,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>$r.getUDC().size() != 0</valueString>
+        <valueString>($r.getUDC().size() != 0) &amp;&amp; ($r.getSecondList().size() != 0)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
