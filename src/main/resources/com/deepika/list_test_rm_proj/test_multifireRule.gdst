@@ -161,7 +161,7 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>updateList</field>
-              <value>$r.getUDC()</value>
+              <value>$r.getUDC(),$r.getSecondList()</value>
               <nature>1</nature>
               <type>Collection</type>
               <method></method>
