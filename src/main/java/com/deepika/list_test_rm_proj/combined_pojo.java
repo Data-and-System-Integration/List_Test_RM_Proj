@@ -38,12 +38,14 @@ public java.util.List<java.lang.String> getUDC() {
 	  //  }
 	}
 	
-	public java.util.List<java.lang.String> removeAllElementsOfList(java.util.List<java.lang.String> listVal){
-	    listVal.removeAll(listVal);
-	    return listVal;
-	}
+	//public java.util.List<java.lang.String> removeAllElementsOfList(java.util.List<java.lang.String> listVal){
+	  //  listVal.removeAll(listVal);
+	   // return listVal;
+//	}
 
-
+public void updateList(java.util.List<java.lang.String> inpiutList){
+    inpiutList.removeAll(inpiutList);
+}
 
 private java.util.List<java.lang.String> UDC1 = new ArrayList<String>();
 
