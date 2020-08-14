@@ -14,6 +14,15 @@ public class combined_pojo implements java.io.Serializable {
     }
     
     private java.util.List<java.lang.String> UDC = new ArrayList<String>();
+    private java.math.BigDecimal data_ppmonth;
+    
+    public java.math.BigDecimal getData_ppmonth() {
+		return data_ppmonth;
+	}
+	public void setData_ppmonth(java.math.BigDecimal data_ppmonth) {
+		this.data_ppmonth = data_ppmonth;
+	}
+	
     private java.lang.String strVal;
 	public java.lang.String getStrVal() {
 		return this.strVal;
