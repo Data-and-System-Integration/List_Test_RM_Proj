@@ -37,6 +37,11 @@ public java.util.List<java.lang.String> getUDC() {
 			this.UDC.add(input);
 	  //  }
 	}
+	
+	public java.util.List<java.lang.String> removeAllElementsOfList(java.util.List<java.lang.String> listVal){
+	    listVal.removeAll(listVal);
+	    return listVal;
+	}
 
 
 
