@@ -161,7 +161,7 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>updateList</field>
-              <value>$r.getUDC(),$r.getSecondList()</value>
+              <value>$r.getUDC()</value>
               <nature>1</nature>
               <type>Collection</type>
               <method></method>
@@ -252,7 +252,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>($r.getUDC().size() != 0) &amp;&amp; ($r.getSecondList().size() != 0)</valueString>
+        <valueString>$r.getUDC().size() != 0</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
